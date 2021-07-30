@@ -1,0 +1,29 @@
+{
+  "name": "@ilefa/bluepages",
+  "version": "1.0.0",
+  "author": "ILEFA Labs",
+  "license": "GPL-3.0",
+  "description": "Internal API to query the UConn Phonebook",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ilefa/bluepages.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ilefa/bluepages/issues"
+  },
+  "homepage": "https://github.com/ilefa/bluepages#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cheerio": "^1.0.0-rc.10",
+    "cheerio-tableparser": "^1.0.1"
+  },
+  "devDependencies": {
+    "@types/cheerio": "^0.22.30"
+  }
+}
