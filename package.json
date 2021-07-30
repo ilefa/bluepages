@@ -25,5 +25,8 @@
   },
   "devDependencies": {
     "@types/cheerio": "^0.22.30"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   }
 }
