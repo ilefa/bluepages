@@ -12,12 +12,6 @@ Use npm to install Bluepages.
 npm install @ilefa/bluepages
 ```
 
-Since Bluepages is currently hosted on GitHub packages, you will need to make a ``.npmrc`` file in the root of your project, and insert the following:
-
-```env
-@ilefa:registry=https://npm.pkg.github.com
-```
-
 ## Usage
 
 ```ts
